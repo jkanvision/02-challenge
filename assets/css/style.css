@@ -1,12 +1,69 @@
-* {
+/** {
 
+}*/
+
+header {
+    width: 100%;
+    background-color: rgb(117, 11, 238);
+    
 }
 
-.text-right {
-    text-align: right;
+nav {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+    padding-left: 15px;
+    color: whitesmoke;
+}
+
+.nav-links {
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-wrap: wrap;
+}
+
+.nav-links li {
+    display: inline;
+    padding: 20px;
+    text-decoration: none;
+}
+.nav-links a:link {
+    color: whitesmoke;
+  }
+  
+.nav-links a:visited {
+    color: pink;
+  }
+
+.nav-links a:hover {
+    color: yellow;
+    background-color: transparent;
+  }
+
+/*subtitle*/
+
+
+/* h2 */
+
+/* main, h3 */
+
+/* .about-me */
 
 p {
-    text-align: right;
+    
 }
 
+/* .portfolio, figures */
+
+/* #main-project */
+
+/* .contact */
+
+/* .contact-links, li */
+
+/* .resume */
