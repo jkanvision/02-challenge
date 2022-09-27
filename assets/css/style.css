@@ -97,6 +97,7 @@ h3 {
     flex-wrap: wrap;
 }
 p {
+    max-width: 70%;
     padding-left: 30px;
     border-left: solid black;
 }
@@ -104,16 +105,27 @@ p {
 /* .portfolio, figures */
 .portfolio {
     display: flex;
-    
+    justify-content: flex-end;
+    align-items: center;
     flex-wrap: wrap;
 }
 
-/*.figures {
-    display: flex;
-    flex-wrap: wrap;
-}*/
+.portfolio h3 {
+    margin-right: 80px;
+}
 
-/* #main-project */
+.figures {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+#main-project {
+    justify-content: flex-end;
+    padding: 30px;
+    margin-right: 70px;
+    border-left: solid black;
+}
 
 /* .contact */
 .contact {
