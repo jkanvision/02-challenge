@@ -26,7 +26,6 @@ h1 {
 .nav-links {
     padding-left: 15px;
     padding-right: 15px;
-    flex-wrap: wrap;
 }
 
 li {
@@ -70,74 +69,105 @@ li {
     
 }
 
-/* h2 */
+/* subtitle heading */
 h2 {
     font-size: 200%;
     margin-right: 40px;
     margin-bottom: 10px;
     color: whitesmoke;
 }
-/* main, h3 */
-
-h3 {
-    /*display: flex;
-    flex-direction: column;*/
-    font-size: 250%;
-    
-    width: 20%;
-    text-align: right;
-    
-}
-
-/* .about-me */
-.about-me {
+main {
     display: flex;
-    padding-bottom: 20px;
-    justify-content: space-between;
     flex-wrap: wrap;
-}
-p {
-    max-width: 70%;
-    padding-left: 30px;
-    border-left: solid black;
+    justify-content: safe;
+    justify-content: space-between;
+    row-gap: 5%;
 }
 
-/* .portfolio, figures */
-.portfolio {
+#aboutme {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
-    flex-wrap: wrap;
 }
 
-.portfolio h3 {
-    margin-right: 80px;
+h3 {
+    margin-right: 20px;
+    font-size: 250%;
 }
 
-.figures {
+p {
+    padding-left: 30px;
+    width: 70%;
+    margin: 0;
+    border-left: solid black;
+    text-align: end;
+    line-height: 1.6;
+}
+
+/*  portfolio, figures */
+.portfolio {
     display: flex;
-    justify-content: flex-end;
     flex-wrap: wrap;
-}
+    justify-content: flex-end;
+    align-items: center;
+    
+} 
 
 #main-project {
     justify-content: flex-end;
+    max-width: 70%;
     padding: 30px;
-    margin-right: 70px;
+    margin: 0;
     border-left: solid black;
+    
+}
+/* .portfolio h3 {
+    margin-right: 80px;
+} */
+
+#prewok {
+    max-width: 100%;
+  height: auto;
 }
 
+.figures {
+    /* display: flex;
+    flex-wrap: wrap; */
+    justify-content: flex-end;
+    align-items: center;
+    max-inline-size: 80%;
+} 
+
+footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#contact h3 {
+    padding-right: 20px;
+    border-right: solid black;
+}
+
+footer ul {
+    font-size: 110%;
+    padding: 0;
+    margin: 0;
+    
+}
 /* .contact */
-.contact {
+/* .contact {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+} */
 /* .contact-links, li */
 
-@media screen and (max-width: 460px) { 
-    /* changes layout of nav-links for smaller screens */
-.nav-links li {
-    display: block;
+/* changes layout of nav-links for smaller screens */
+@media screen and (max-width: 552px) { 
+    li {
+        display: block;
     }
 }
